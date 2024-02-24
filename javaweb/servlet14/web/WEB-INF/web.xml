@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+
+    <!-- Filter1 -->
+    <!--
+    <filter>
+        <filter-name>filter1</filter-name>
+        <filter-class>com.bjpowernode.javaweb.servlet.Filter2</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>filter1</filter-name>
+        &lt;!&ndash;
+        <url-pattern>/a.do</url-pattern>
+        <url-pattern>/b.do</url-pattern>
+        &ndash;&gt;
+        <url-pattern>*.do</url-pattern>
+        &lt;!&ndash; <url-pattern>/*</url-pattern>&ndash;&gt;
+    </filter-mapping>
+
+    -->
+    <!-- Filter2 -->
+
+    <!--
+    <filter>
+        <filter-name>filter2</filter-name>
+        <filter-class>com.bjpowernode.javaweb.servlet.Filter2</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>filter2</filter-name>
+        <url-pattern>*.do</url-pattern>
+    </filter-mapping>
+    -->
+</web-app>
